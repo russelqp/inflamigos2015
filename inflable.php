@@ -391,7 +391,7 @@ echo "Edad recomendada: ".$edades." años";
 echo "<br />";
 echo "</p>";
 ?>
-<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+<button class="btn_reservar" type="button">Reservar</button><!--<button class="btn_reservar" type="button">Condiciones</button>-->
 </div>
 
 <div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable.'/';?>"></div>
