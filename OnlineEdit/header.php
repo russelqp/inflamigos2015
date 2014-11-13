@@ -3,8 +3,8 @@
 <?php
 flush();
 $url_a = "http://www.inflamigos.com.mx/";
-$url_r = "http://127.1.0.0/inflamigos2015/";
-$Myurl = $url_r;
+$url_r = "http://127.1.0.0/inflamigos2014/";
+$Myurl = $url_a;
 ?>
 <head>
 <meta charset="utf-8">
@@ -19,13 +19,24 @@ $Myurl = $url_r;
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Wendy+One' rel='stylesheet' type='text/css'>
 <title><?php echo $titlePage; ?></title>
 
-<link href="<?php echo $Myurl; ?>css/style.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $Myurl; ?>css/gradientbg.css" rel="stylesheet" type="text/css" />
-<script src="<?php echo $Myurl; ?>js/prefixfree.min.js"></script>
+<link href="<?php echo $Myurl; ?>style.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $Myurl; ?>gradientbg.css" rel="stylesheet" type="text/css" />
+<script src="<?php echo $Myurl; ?>prefixfree.min.js"></script>
 
 <script type="text/javascript" src="[JS library]"></script>
 
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
 <link rel="stylesheet" type="text/css" href="<?php echo $Myurl; ?>engine1/style.css" />
+
 
 
 

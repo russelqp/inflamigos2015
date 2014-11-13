@@ -27,8 +27,7 @@
   <script type="text/javascript" src="engine1/script.js"></script>
   <!-- End WOWSlider.com BODY section -->
 
-    	<?php include('inc/book-now.php');?>
-
+  <?php include('inc/book-now.php');?>
 </section>
 
 <section id="welcome-servicios">

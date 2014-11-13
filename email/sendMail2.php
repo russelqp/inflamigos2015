@@ -121,9 +121,9 @@
 <h1>Buzón - Brincolines Inflamigos</a></h1>
 </header>
 <article>
-<h2>¡Gracias por escribirnos!</h1>
-<h3>Hola '.$Nombre.' </h2>
-<p>Hemos recibido tu correo, el cuál será atendido y respondido con la mayor brevedad posible. <b>Inflamigos</b> te agradece mucho el habernos contactado.</p>
+<h2></h1>
+<h3>¡Hola '.$Nombre.', gracias por escribirnos! </h2>
+<p>Tu correo será atendido y respondido con la mayor brevedad posible. <b>Inflamigos</b> te agradece mucho el habernos contactado.</p>
 <span>Este correo confirma su envío efectuado desde nuestro formulario de contacto. 
 Si recibes este correo por accidente, por favor, comunícalo a nuestro <a href="mailto: webmaster@inflamigos.com.mx" title="email inflamigos">Administrador.</a></span> 
 <p>&nbsp;</p>
@@ -137,7 +137,7 @@ Cel. 9841416137<br />
 <a href="http://www.inflamigos.com.mx/" title="Brincolines Inflamigos">www.inflamigos.com.mx</a><br />
 buzon@inflamigos.com.mx<br /></p>
 </div>
-<ul div="social">
+	<ul>
 	<li><a href="https://www.facebook.com/inflamigos" title="Inflamigos Facebook"><img src="http://www.inflamigos.com.mx/img/social-icons/circular/facebook_32.png" alt="facebook_32"/></a></li>
 	<li><a href="https://twitter.com/inflamigos" title="Inflamigos Twitter"><img src="http://www.inflamigos.com.mx/img/social-icons/circular/twitter_32.png" alt="twitter_32.png"/></a></li>
 	<li><a href="http://www.youtube.com/user/inflamigos" title="Inflamigos Youtube"><img src="http://www.inflamigos.com.mx/img/social-icons/circular/youtube_32.png" alt="yoytube_32.png"/></a></li>
