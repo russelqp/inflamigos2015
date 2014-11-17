@@ -5,6 +5,9 @@ flush();
 $url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://127.1.0.0/inflamigos2015/";
 $Myurl = $url_r;
+$abrecoment ="";
+$cierracoment ="";
+if ($Myurl == $url_r) {$abrecoment="<!--"; $cierracoment="-->";}
 ?>
 <head>
 <meta charset="utf-8">
@@ -16,14 +19,14 @@ $Myurl = $url_r;
 <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 <meta property="fb:admins" content="1055109002"/>
 <meta property="fb:app_id" content="478839412179968"/>
-<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Wendy+One' rel='stylesheet' type='text/css'>
+<?php echo $abrecoment ;?><link href='http://fonts.googleapis.com/css?family=Noto+Sans|Wendy+One' rel='stylesheet' type='text/css'><?php echo $cierracoment ;?>
 <title><?php echo $titlePage; ?></title>
 
 <link href="<?php echo $Myurl; ?>css/style.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $Myurl; ?>css/gradientbg.css" rel="stylesheet" type="text/css" />
 <script src="<?php echo $Myurl; ?>js/prefixfree.min.js"></script>
 
-<script type="text/javascript" src="[JS library]"></script>
+<?php echo $abrecoment ;?><script type="text/javascript" src="[JS library]"></script><?php echo $cierracoment ;?>
 
 <link rel="stylesheet" type="text/css" href="<?php echo $Myurl; ?>engine1/style.css" />
 

@@ -37,7 +37,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top;}
 table{border-collapse:collapse;border-spacing:0}
-@font-face{font-family:'icomoon';src:url("/fonts/icomoon.eot");src:url("/fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("/fonts/icomoon.woff") format('woff'),url("/fonts/icomoon.ttf") format('truetype'),url("/fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'icomoon';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts/icomoon.woff") format('woff'),url("../fonts/icomoon.ttf") format('truetype'),url("../fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
 [data-icon]:before{font-family:'icomoon';content:attr(data-icon);speak:none;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}
 .icon-phone,.icon-vimeo,.icon-youtube,.icon-facebook,.icon-twitter,.icon-wordpress,.icon-pinterest,.icon-skype,.icon-mail,.icon-google-plus{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}
 .icon-phone:before{content:"\e000"}
@@ -79,14 +79,15 @@ table{border-collapse:collapse;border-spacing:0}
 #detalle-brincolin p span{color:#fff;font-weight:bold;border-radius:5px;background-color:#0cf;padding:1px 5px}
 #welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top}
 #welcome #box-ofer	form{display:block;margin:0 auto 5px auto;padding:2px;height:40%;width:100%;text-align:center;background-color:#ffd700;}
-#welcome #box-ofer	form #user-email,#welcome #box-ofer	form #user-nombre{border-radius:2px;border:solid 1px #fff;margin:2px auto;height:2em;width:45%;display:inline-block;transition:.7s ease all;color:#fe4900;padding:5px 2px}
-#welcome #box-ofer	form select{border-radius:2px;border:solid 1px #fff;margin:2px auto;height:2em;width:94%;display:block;transition:.7s ease all;color:#fe4900;padding:5px 2px}
+#welcome #box-ofer	form #user-email,#welcome #box-ofer	form #user-nombre,#welcome #box-ofer	form #datepicker{border-radius:2px;border:solid 1px #fff;margin:2px auto;height:1.3em;width:45%;display:inline-block;transition:.7s ease all;color:#fe4900;padding:5px 2px;text-align:center;font-size:1.3em}
+#welcome #box-ofer	form #select-inflable{border-radius:2px;border:solid 1px #fff;margin:2px auto;height:2.5em;width:94%;display:block;transition:.7s ease all;color:#333;padding:5px 2px;text-align:center}
+#welcome #box-ofer	form #datepicker{width:55%}
+#welcome #box-ofer	form .book-now-btn{width:35%;background:#f00;border:solid 1px #ddd;margin:2px 5px;cursor:pointer;font-size:1.5em;font-family:Oswald,sans-serif;color:#fff;display:inline-block;transition:.7s ease all;box-shadow:inset 0 1px 0 rgba(255,100,255,0.5),0 5px 0 0 rgba(255,160,200,0.9),0 10px 5px #999;border-radius:5px;padding:5px 2px;float:right}
+#welcome #box-ofer	form .book-now-btn:hover,#welcome #box-ofer	form .book-now-btn:focus{color:#dfe7ea;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5),0 2px 0 0 rgba(255,255,255,0.5),0 2px 5px #999}
 #welcome #box-sm{margin:0 auto;text-align:center;padding:2px 0;background:rgba(255,255,255,0.7);display:inline-block;vertical-align:top;height:40%;width:100%}
 #welcome #box-sm ul li{margin:2px;padding:0;display:inline-block}
 #welcome #box-sm ul li a{display:inline-block;vertical-align:top;padding:0;font-size:1.8em;color:#d20033;text-shadow:0 0 2px rgba(60,60,60,0.5);transition:all .5s ease}
 #welcome #box-sm ul li a:hover{color:#00af64;transform:scale(1.1)}
-.book-now-btn{width:40%;background:#f00;border:solid 1px #ddd;margin:2px 10px;cursor:pointer;font-size:1.5em;font-family:Oswald,sans-serif;color:#fff;display:inline-block;transition:.7s ease all;box-shadow:inset 0 1px 0 rgba(255,100,255,0.5),0 5px 0 0 rgba(255,160,200,0.9),0 10px 5px #999;border-radius:5px;padding:5px 2px;float:right}
-.book-now-btn:hover,.book-now-btn:focus{color:#dfe7ea;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5),0 2px 0 0 rgba(255,255,255,0.5),0 2px 5px #999}
 body{background-color:#cef;color:#fff;font-family:'Noto Sans',sans-serif;font-size:16px;margin:0 auto;padding:0}
 img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5);text-align:center}
@@ -217,15 +218,18 @@ nav ul{text-align:left}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 nav ul li{width:19.7%}
 .menu_inflables figure{width:38%}
+#wowslider-container1{display:block;width:98%;padding:0;margin:0}
+#box-ofer{display:block;width:98%;}
+#box-ofer form h4{width:100%;padding:0;margin:0}
+#box-ofer form #user-email,#box-ofer form #user-nombre,#box-ofer form #datepicker{width:48%}
+#box-ofer form #select-inflable{width:900%}
 }@media screen and (max-width:650px){header nav ul li{width:33%;padding:0}
 h3{text-align:left}
 .lista-imagenes,.datos{width:100%;display:block;margin:auto}
 article,aside{width:100%;display:block}
 aside{margin-top:10px;text-align:center}
 .submenu{display:none}
-#welcome{padding:0;margin:0;}
-#welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
-#welcome #box-ofer{display:none}
+#welcome{padding:0;margin:0}
 }figure .fb-like-box{display:none}
 #banner_video #vp1XqISc{text-align:center;padding:0;margin:0;width:100%}
 @media screen and (max-width:600px){.menu_inflables figure{width:40%}

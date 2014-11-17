@@ -41,7 +41,7 @@
   <figcaption>Gran variedad de brincolines: Escaladoras, Castillos, Tobogan, Chapoteadero, Slides.</figcaption>
    <p><a href="<?php echo $Myurl; ?>brincolines/" title="Catálogo de brincolines">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  <?php echo $abrecoment ;?> <div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
   </p>
 </figure>
 </a>
@@ -53,7 +53,7 @@
   <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
   <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="Toldos">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  <?php echo $abrecoment ;?> <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
   </p>  
 </figure>
 </a>
@@ -64,7 +64,7 @@
   <figcaption>SkyDancer para tus campañas publicitarias.</figcaption>
   <p><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="SkyDancers">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+   <?php echo $abrecoment ;?><div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
   </p>  
 </figure>
 </a>
@@ -100,7 +100,7 @@
 -->
 
 <article id="banner_video">
-<iframe id="vp1XqISc" title="Video Player" width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1391897476&f=XqIScB4M20jd1Db100j1Vg&d=0&m=a&r=360p&volume=100&start_res=360p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
+<?php echo $abrecoment ;?><iframe id="vp1XqISc" title="Video Player" width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1391897476&f=XqIScB4M20jd1Db100j1Vg&d=0&m=a&r=360p&volume=100&start_res=360p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe><?php echo $cierracoment ;?>
 
 </article>
 <blockquote>Brincolines <strong>Inflamigos</strong>, los más divertidos amigos inflables para tus niños.</blockquote>

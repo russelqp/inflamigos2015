@@ -4,7 +4,7 @@
                   <h4>¡Reserva ahora!</h4>
                  	<input type="email" id="user-email" name="email" placeholder="@-email" required/>
                   	<input type="text" id="user-nombre"  name="nombre" placeholder="nombre" required/>
-                    <select name="item">
+                    <select name="item" id="select-inflable">
                         <option value="castillo-aventura">Castillo Aventura</option>
                         <option value="castillo-princess">Castillo Princess</option>
                         <option value="escaladrilo">Escaladrilo</option>
@@ -19,7 +19,7 @@
                         <option value="aqualand">Aqualand</option>
                         <option value="splashpool">Splash Pool</option>
                     </select>
-                    <p>Date: <input type="text" id="datepicker" /></p>
+                    <input type="date" name="fecha" id="datepicker" placeholder="fecha del evento"./>
                     
                     	<input class="book-now-btn" type="submit" name="submit" value="Enviar" />
                     <p><strong class="icon-phone"> 9841416137</strong></p>
