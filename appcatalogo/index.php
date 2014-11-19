@@ -1,8 +1,9 @@
 			 <?php
 			 $titlePage="App Catálogo Inflamigos - ";
 			 $descPage="En inflamigos contamos con 10 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo.";
-					 ?>
-			 <?php $btn_inicio=0; include('header.php');?>
+			$boton_act = 0;
+				?>
+			 <?php include('header.php');?>
 
 
 			 <section>
