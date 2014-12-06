@@ -20,7 +20,7 @@
                         <option value="splashpool">Splash Pool</option>
                     </select>
                     <input type="date" name="fecha" id="datepicker" placeholder="fecha del evento"./>
-                    
+                    	<!--<div class="g-recaptcha" id="g-recaptcha" data-sitekey="6Lds4v4SAAAAAEeNvTG7llWFmZCTmsBl2HGwfxcU"></div>-->
                     	<input class="book-now-btn" type="submit" name="submit" value="Enviar" />
                     <p><strong class="icon-phone"> 9841416137</strong></p>
 

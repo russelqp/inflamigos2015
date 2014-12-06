@@ -9,12 +9,10 @@
 			 	<article>
 			 		<h3>Brincolines</h3>
 			 		<?php include('cat_brincolines.php');?>
-					<h4>También puedes descargar nuestro catálogo</h4>
+					<h4>También puedes descargar nuestro catálogo en PDF</h4>
 					<br />
 					<p> 
-						Versión Word: <a href="<?php echo $Myurl; ?>/downloads/catalogo_inflamigos_2013.doc" title="Descarga el catálogo versión .doc"><img src="<?php echo $Myurl; ?>/imagenes/doc.png" width="45" height="47" alt="ico-word-download" /></a>
-						<br />
-						Versión PDF: <a href="<?php echo $Myurl; ?>/downloads/catalogo_inflamigos_2013.pdf" title="Descarga el catálogo versión .pdf"><img src="<?php echo $Myurl; ?>/imagenes/pdf.png" width="45" height="47" alt="ico-pdf-download" /></a>
+						Versión PDF: <a href="<?php echo $Myurl; ?>downloads/catalogo_inflamigos_2015_md.pdf" title="Catalogo Inflamigos .PDF"><img src="<?php echo $Myurl; ?>/imagenes/pdf.png" width="45" height="47" alt="ico-pdf-download" /></a>
 					</p>
 
 			

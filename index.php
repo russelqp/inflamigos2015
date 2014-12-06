@@ -9,18 +9,21 @@
 
       <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
-<div class="ws_images"><ul>
-<li><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="Skydancers"><img src="data1/images/banner_4.jpg" alt="Inflamigos_banner_4" title="SkyDancers" id="wows1_0"/></a></li>
-<li><img src="data1/images/banner_1.jpg" alt="Inflamigos_banner_1" title="Eventos Hoteleros" id="wows1_0"/></li>
-<li><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></li>
-<li><img src="data1/images/banner_3.jpg" alt="Inflamigos_banner_3" title="Al aire libre" id="wows1_2"/></li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#" title="Sky Dancers"><img src="data1/tooltips/banner_4.jpg" alt="_banner_4"/>1</a>
-<a href="#" title="Eventos Hoteleros"><img src="data1/tooltips/banner_1.jpg" alt="_banner_1"/>2</a>
-<a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="_banner2"/>3</a>
-<a href="#" title="Al aire libre"><img src="data1/tooltips/banner_3.jpg" alt="_banner_3"/>4</a>
-</div></div>
+  <div class="ws_images">
+    <ul>
+    <li><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="Skydancers"><img src="data1/images/banner_4.jpg" alt="Inflamigos_banner_4" title="SkyDancers" id="wows1_0"/></a></li>
+    <li><img src="data1/images/banner_1.jpg" alt="Inflamigos_banner_1" title="Eventos Hoteleros" id="wows1_0"/></li>
+    <li><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></li>
+    <li><img src="data1/images/banner_3.jpg" alt="Inflamigos_banner_3" title="Al aire libre" id="wows1_2"/></li>
+    </ul>
+  </div>
+  <div class="ws_bullets"><div>
+  <a href="#" title="Sky Dancers"><img src="data1/tooltips/banner_4.jpg" alt="_banner_4"/>1</a>
+  <a href="#" title="Eventos Hoteleros"><img src="data1/tooltips/banner_1.jpg" alt="_banner_1"/>2</a>
+  <a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="_banner2"/>3</a>
+  <a href="#" title="Al aire libre"><img src="data1/tooltips/banner_3.jpg" alt="_banner_3"/>4</a>
+</div>
+</div>
   <div class="ws_shadow"></div>
   </div>
   <script type="text/javascript" src="engine1/wowslider.js"></script>
