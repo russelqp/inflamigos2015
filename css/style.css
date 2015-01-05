@@ -29,7 +29,7 @@ legend{border:0;padding:0;}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],/* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button,html input[type="button"],* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
 button[disabled],html input[disabled]{cursor:default}
 input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
 input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
@@ -117,6 +117,7 @@ nav ul li a{display:block;color:#fff;transition:all 1s ease;height:100%;padding-
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
 nav ul li a:visited{border:1px solid #d30}
 #boletin_video article,aside{display:inline-block}
+#boletin_video blockquote{color:#fff}
 article{color:#121212;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%}
 aside{width:30%;margin:0 15px 0 auto;text-align:center;padding:0;color:#fff}
 article .lista li p{width:75%;margin:5px auto;text-align:justify;padding:0;color:#39f}
@@ -198,7 +199,7 @@ section{margin:0 auto;width:100%;padding:10px 10px;background-color:#efefef;text
 .boletin .btn-bol:hover{background-color:#00bf32;color:#fff}
 .boletin #tlemail{width:90%;font-size:1.2em;color:#09f}
 .submenu{background-color:#fc3;color:#9c0;padding:0;text-align:center}
-margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
+margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .submenu li{border-left:2px solid #ff9;border-right:2px solid #f90;display:inline-block;vertical-align:top;height:30px;list-style-type:none;margin:0;padding:0}
 .submenu li.nb-left{border-left:0}
 .submenu li.nb-right{border-right:0}
@@ -216,14 +217,17 @@ margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .clearfloat{clear:both}
 @media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
 nav ul{text-align:left}
+.miniserv{width:40%}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 nav ul li{width:19.7%}
 .menu_inflables figure{width:38%}
 #welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
-#welcome #box-ofer{display:block;width:98%}
+#welcome #box-ofer{display:block;width:100%;}
+#welcome #box-ofer form #select-inflable{width:92%}
 form h4{width:100%;padding:0;margin:0}
 form #user-email,form #user-nombre,form #datepicker{width:48%}
 form #select-inflable{width:70%}
+#vp1XqISc{width:90%}
 }@media screen and (max-width:650px){header nav ul li{width:33%;padding:0}
 h3{text-align:left}
 .lista-imagenes,.datos{width:100%;display:block;margin:auto}
@@ -231,13 +235,13 @@ article,aside{width:100%;display:block}
 aside{margin-top:10px;text-align:center}
 .submenu{display:none}
 #welcome{padding:0;margin:0}
-figure .fb-like-box{display:none}
-#banner_video #vp1XqISc{text-align:center;padding:0;margin:0;width:100%}
-}@media screen and (max-width:600px){.menu_inflables figure{width:40%}
+figure .fb-like{display:none}
+article#banner_video{display:none;overflow:hidden}
+#vp1XqISc{display:none;overflow:hidden}
 }@media screen and (max-width:520px){header,header nav{padding:0;margin:0}
 header nav ul{padding:2px;margin:0 auto}
 header nav ul li{border:0;width:49.1%;margin:2px}
-header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-image:none;border:0}
+header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog,#bk-servicios{background-image:none;border:0}
 header{text-align:center;margin:0 auto}
 #wowslider-container1{display:block;width:100%}
 figure{padding:0}
@@ -246,11 +250,18 @@ h4{padding:0;margin:0;display:none}
 .p1{display:none}
 .menu_inflables figure{width:40%}
 .lista-imagenes ul li{width:45%}
-}@media screen and (max-width:480px){header nav ul{padding:0}
+}@media screen and (max-width:480px){#top_cintilla{text-align:center;margin:0 auto;padding:0;}
+#top_cintilla #logo{margin:0 auto;padding:0;display:block;width:100%;}
+#top_cintilla #logo img{margin:0 auto;padding:0}
+header nav ul{padding:0}
 header nav ul li{width:48.5%}
 #welcome-servicios{padding:0;margin:0 auto;text-align:center}
-.miniserv{padding:0;margin:5px auto;width:70%;display:block}
-}@media screen and (max-width:320px){h1{font-size:2.4em}
+.miniserv{padding:0;margin:5px auto;width:90%;display:block}
+#welcome #box-ofer{display:none}
+}@media screen and (max-width:320px){#top_cintilla{text-align:center;margin:0 auto;padding:0;}
+#top_cintilla #logo{margin:0 auto;padding:0;display:block;width:100%;}
+#top_cintilla #logo img{margin:0 auto;padding:0}
+h1{font-size:2.4em}
 #bk-home,#bk-brincolines,#bk-acercade,#bk-faq,#bk-contacto,#bk-blog{background-image:none}
 header nav ul li a{text-align:center}
 nav ul li{width:40%}
@@ -258,6 +269,9 @@ p{text-align:center}
 li{text-align:left}
 .menu_inflables figure{width:90%}
 .lista-imagenes ul li{width:90%}
+.miniserv{width:97%}
+}@media screen and (max-width:320px){header nav ul{margin:0 auto;text-align:center}
+header nav ul li{width:97%}
 }.modalDialog{position:fixed;font-family:Arial,Helvetica,sans-serif;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.8);z-index:99999;opacity:0;transition:opacity 400ms ease-in;pointer-events:none}
 .modalDialog:target{opacity:1;pointer-events:auto}
 .modalDialog > div{width:400px;position:relative;margin:10% auto;padding:5px 20px 13px 20px;border-radius:10px;background:#fff;}
