@@ -3,7 +3,7 @@
 <?php
 flush();
 $url_a = "http://www.inflamigos.com.mx/";
-$url_r = "http://127.1.0.0/inflamigos2015/";
+$url_r = "http://localhost:8080/inflamigos2015/";
 $Myurl = $url_r;
 
 if($Myurl == $url_a){

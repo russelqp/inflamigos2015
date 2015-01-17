@@ -1,4 +1,4 @@
-
+﻿
 
 <?php
 /******************************************************************************/
@@ -123,7 +123,7 @@ $content='
 
 ';
 
-mail('buzon@inflamigos.com.mx', 'Formulario de contacto',$content,"MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $Nombre < $Email >");
+mail('info@inflamigos.com.mx', 'Formulario de contacto',$content,"MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $Nombre < $Email >");
 
 $mensaje = '
 <!DOCTYPE html>
@@ -263,7 +263,7 @@ Si recibes este correo por accidente, por favor, comunícalo a nuestro <a href="
 Brincolines Inflamigos<br />
 Cel. 9841416137<br />
 <a href="http://www.inflamigos.com.mx/" title="Brincolines Inflamigos">www.inflamigos.com.mx</a><br />
-buzon@inflamigos.com.mx<br /></p>
+info@inflamigos.com.mx<br /></p>
 </div>
   <ul>
   <li><a href="https://www.facebook.com/inflamigos" title="Inflamigos Facebook"><img src="http://www.inflamigos.com.mx/img/social-icons/circular/facebook_32.png" alt="facebook_32"/></a></li>
@@ -281,7 +281,7 @@ buzon@inflamigos.com.mx<br /></p>
 
 $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-$cabeceras .= 'From: Inflamigos WebSite < buzon@inflamigos.com.mx >' . "\r\n";
+$cabeceras .= 'From: Inflamigos WebSite < info@inflamigos.com.mx >' . "\r\n";
 mail ("$Nombre < $Email >", "Su correo ha sido recibido",$mensaje,$cabeceras);
 echo '<Script>alert("¡Mensaje enviado, Gracias =D!")</Script>';
 echo "<meta content='0;url=http://www.inflamigos.com.mx/contacto.php' http-equiv='refresh'/>

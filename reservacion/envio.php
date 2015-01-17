@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 $email = $_POST['email'];
 $nombre = $_POST['nombre'];
 $item = $_POST['item'];
 $fecha = $_POST['fecha'];
-$para = 'buzon@inflamigos.com.mx';
+$para = 'info@inflamigos.com.mx';
 $titulo = 'Reservacion Rapida';
 $header = 'From: ' . $email;
 $msjCorreo = "E-Mail: $email\n Nombre:\n $nombre\n Brincolin: $item\n Fecha: $fecha\n";
