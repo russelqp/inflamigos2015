@@ -110,6 +110,7 @@ map.addMarker({
        
 <div id="top_cintilla">
     <div id="logo"><a href="<?php echo $Myurl; ?>" title="Home Inflamigos"><img src="<?php echo $Myurl; ?>/imagenes/logo_inflamigos.png" width="120" height="134" alt="logo_inflamigos" title="ir al home"/></a></div>
+    <div id="logo-min"><a href="<?php echo $Myurl; ?>" title="Home Inflamigos"><img src="<?php echo $Myurl; ?>/imagenes/logo-min-inflamigos.png" alt="logo_inflamigos" title="ir al home"/></a></div>
     <div id="info">
         <a href="<?php echo $Myurl; ?>" title="Home Inflamigos"><h1>Inflamigos</h1></a>
         <h2>Renta de brincolines en Playa del Carmen</h2>

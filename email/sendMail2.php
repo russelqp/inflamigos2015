@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -135,7 +135,7 @@ Si recibes este correo por accidente, por favor, comunícalo a nuestro <a href="
 Brincolines Inflamigos<br />
 Cel. 9841416137<br />
 <a href="http://www.inflamigos.com.mx/" title="Brincolines Inflamigos">www.inflamigos.com.mx</a><br />
-buzon@inflamigos.com.mx<br /></p>
+info@inflamigos.com.mx<br /></p>
 </div>
 	<ul>
 	<li><a href="https://www.facebook.com/inflamigos" title="Inflamigos Facebook"><img src="http://www.inflamigos.com.mx/img/social-icons/circular/facebook_32.png" alt="facebook_32"/></a></li>

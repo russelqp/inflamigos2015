@@ -88,6 +88,20 @@ return $url;
 
 <?php
 $inflable=$_GET['inflable'];
+if($inflable=="castillo-del-chavo"){
+	$brincolin = "cchavo";
+	$titulo = "Castillo del Chavo";
+	$precio = "750";
+	$miniDesc = "Ahora estará el chavo en tu fiesta";
+	$ancho = "4";
+	$largo = "5";
+	$alto = "3";
+	$edades = "1 a 5";
+	$capacidad="7";
+	$detalles ="Podrás llevar al chavo y a la chilindrina a tu fiesta, y tus pequeños gozarán de un refrescante aroma a frutas de este lindo castillo con resbaladilla.";
+	$id_video = "";
+	$acuatico = 1;
+}
 if($inflable=="dora-box"){
 	$brincolin = "dorabox";
 	$titulo = "Dora Box";
@@ -404,6 +418,7 @@ echo "</p>";
 <div class="menu_inflables_mini">
 <h4>Ver otro inflable</h4>
     <ul>
+    <li><?php echo '<a href='.$Myurl.'brincolines/castillo-del-chavo/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/cchavo_thumb.png" alt="castillo_del_chavo" title="Castillo del Chavo"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/castillo-aventura/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/caventura_thumb.png" alt="castillo_aventura_middle" title="Castillo Aventura"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/castillo-princess/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/cprincess_thumb.png" alt="castillo_princess_middle" title="Castillo Princess"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/escaladrilo/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/escaladrilo_thumb.png" alt="escaladrilo-middle" title="Escaladrilo" /></a></li>
@@ -428,6 +443,7 @@ echo "</p>";
 					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />
 					<ol>
 						<li>No subir con juguetes u objetos punzo cortantes.</li>
+						<li>Prohibido introducir confeti o cerpentina al inflable</li>
 						<li>No subir con alimentos, dulces y/o bebidas.</li>
 						<li>No subir con zapatos, tenis u otro calzado de material r&iacute;gido o que pueda   da&ntilde;ar el equipo.</li>
 						<li>No arrastrar el brincolin para transladarlo a otro lugar.</li>

@@ -40,6 +40,10 @@ if($servicio=="toldos"){
 	$titulo = "Renta de Toldos";
 	$miniDesc = "Toldos de: 3x6, 6x6 y 6x12";
 }
+if($servicio=="rockolas"){
+	$titulo = "Rockolas";
+	$miniDesc = "Anima tu fiesta y pon a cantar a tus invitados";
+}
 if($servicio=="skydancers"){
 	$titulo = "SkyDancers";
 	$miniDesc = "Sky Dancers, para tus promociones";
@@ -139,6 +143,68 @@ $url = $servicio;
 						</div>
 
 						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
+						<br />
+					</article>
+
+
+			';}
+
+	}
+	if ($servicio == "rockolas")
+		{
+		$modelo = array("fiesta");
+		
+			$i = 0;
+		
+		for ($i=0; $i<count($modelo); $i++)
+			{
+
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Fiesta";
+							$precio = "500";
+							$detalles ="Rockola con Karaoke incluido + videos musicales. $500.00 por 6 horas.";
+							$id_video = "";
+							$img = "rockolas_fiesta";
+						}
+				
+
+				echo '
+			
+			
+					<article id="item">
+
+						<h3>'.$h3.'</h3>
+
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-rockolas"/>
+							<figcaption>
+								
+
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+								
+							</figcaption>
+						</figure>
+							 
+						<div class="datos">
+
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: <span class="precio">$'.$precio.'.00</span>
+						<br />
+						</p>
+						
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 

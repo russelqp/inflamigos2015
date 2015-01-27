@@ -87,6 +87,21 @@
 						</figure>
 
 						<figure>
+						 	<a href="<?php echo $Myurl; ?>brincolines/castillo-del-chavo/" title="ver imagenes de: Castillo del Chavo"><img src="<?php echo $Myurl; ?>inflables/castillo-del-chavo-middle.jpg" alt="Castillo del Chavo"/></a>
+						 	<a href="<?php echo $Myurl; ?>brincolines/castillo-del-chavo/" title="ver imagenes de: Castillo del Chavo"><h4>Castillo del Chavo<br />(4 x 5)</h4></a>
+						 	<h5><span class="precio">$750.00</span></h5>
+
+
+						 	<figcaption>Un lindo castillo con aroma a frutas</figcaption>
+
+						 	
+						 	<a href="<?php echo $Myurl; ?>brincolines/castillo-del-chavo/" title="ver imagenes de: Castillo del Chavo" class="btn_mas">Mas detalles</a>
+						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-del-chavo/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+			 				
+						</figure>
+
+
+						<figure>
 						 	<a href="<?php echo $Myurl; ?>brincolines/dora-box/" title="ver imagenes de: Dora Box" ><img src="<?php echo $Myurl; ?>inflables/dora_box_middle.jpg" alt="Dora Box"/></a>
 						 	<a href="<?php echo $Myurl; ?>brincolines/dora-box/" title="ver imagenes de: Dora Box" ><h4>Dora Box<br />(4 x 5.5)</h4></a>
 						 	<h5><span class="precio">$900.00</span></h5>
