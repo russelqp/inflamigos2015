@@ -8,8 +8,8 @@ flush();
 <?php
 flush();
 $url_a = "https://www.inflamigos.com.mx/appcatalogo/";
-$url_r = "http://127.1.0.0/inflamigos2014/appcatalogo/";
-$Myurl = $url_a;
+$url_r = "http://localhost:8080/inflamigos2015/appcatalogo/";
+$Myurl = $url_r;
 $dir_brincolines = "../";
 ?>
 <head>

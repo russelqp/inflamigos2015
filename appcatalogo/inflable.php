@@ -91,7 +91,8 @@ return $url;
 <?php 
 $titlePage=$titulo." - Inflamigos";
 $descPage= $miniDesc;
-$btn_activo=1;
+$btn_activo="brincolines";
+$boton_act = 1;
 
 
 // La variable del título de la noticia 
