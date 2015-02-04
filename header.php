@@ -5,6 +5,7 @@ flush();
 $url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://localhost:8080/inflamigos2015/";
 $Myurl = $url_r;
+$dir_brincolines = "";
 
 if($Myurl == $url_a){
   $abrecoment ="";

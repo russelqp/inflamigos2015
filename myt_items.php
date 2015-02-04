@@ -142,7 +142,7 @@ $url = $servicio;
 						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 						</div>
 
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
 						<br />
 					</article>
 
@@ -204,7 +204,7 @@ $url = $servicio;
 						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 						</div>
 
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
 						<br />
 					</article>
 
@@ -282,7 +282,7 @@ $url = $servicio;
 						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 						</div>
 
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
 						<br />
 					</article>
 
@@ -381,7 +381,7 @@ $url = $servicio;
 						</div>
 					
 						
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
 						<br />
 					</article>
 

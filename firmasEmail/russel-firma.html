@@ -36,7 +36,7 @@ body
 	padding: 5px;
 	margin: 0 auto;
 }
-#firma-datos
+.firma-datos ul
 {
 	width: 70%;
 	height: auto;
@@ -45,26 +45,37 @@ body
 	padding: 5px;
 	margin: 0 auto;
 	list-style: none;
+	list-style-type: none;
 }
-#firma-datos span
+
+.firma-datos ul li{
+	list-style: none;
+	list-style-type: none;
+}
+.firma-datos ul span
 {
 	font-weight: bold;
 }
-#firma-social
+.firma-social ul
 {
 	width: 150px;
 	margin: 0 auto;
 	padding: 0 auto;
+	list-style: none;
+	list-style-type: none;
 }
-#firma-social li
+.firma-social ul li
 {
 	width: 15%;
 	padding: 0;
 	margin: 0 2px;
 	display: inline-block;
 	vertical-align: top;
+	list-style: none;
+	list-style-type: none;
+
 }
-#firma-social img
+.firma-social ul img
 {
 	width: 100%;
 	padding: 0;
@@ -78,19 +89,19 @@ body
 <div id="firma-barra-top"><h2>Russel Quiam - CEO de Inflamigos</h2></div>
 <div id="firma-content">
 	<div id="firma-logo"><img src="http://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logoinflamigos"/></div>
-	<ul id="firma-datos">
-		<li><span>Teléfono: </span>9841416137</li>
-		<li><span>Email: </span>buzon@inflamigos.com.mx</li>
-		<li><span>Website: </span><a href="http://www.inflamigos.com.mx" title="Inflamigos Website">www.inflamigos.com.mx</a></li>
-	</ul>
-	<ul id="firma-social">
-		<li><a href="https://www.facebook.com/inflamigos" title="Inflamigos Facebook"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_facebook_icon.png" alt="inflamigos_facebook_icon" /></a></li>
-		<li><a href="https://twitter.com/inflamigos" title="Inflamigos Twitter"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_twitter_icon.png" alt="inflamigos_twitter_icon" /></a></li>
-		<li><a href="http://www.youtube.com/user/inflamigos" title=""><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_youtube_icon.png" alt="" /></a></li>
-		<li><a href="https://plus.google.com/u/0/b/108078750244157653212" title="Inflamigos Google+"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_googleplus_icon.png" alt="inflamigos_googleplus_icon" /></a></li>
-		<li><a href="http://pinterest.com/inflamigos" title="Inflamigos Pinterest"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_pinterest_icon.png" alt="inflamigos_pinterest_icon" /></a></li>
-		<li><a href="http://instagram.com/inflamigos" title="Inflamigos Instagram"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_instagram_icon.png" alt="inflamigos_pinterest_icon" /></a></li>
-	</ul>
+		<div class="firma-datos">
+			<ul>
+				<li><span>Teléfono: </span>9841416137</li>
+				<li><span>Email: </span>buzon@inflamigos.com.mx</li>
+				<li><span>Website: </span><a href="http://www.inflamigos.com.mx" title="Inflamigos Website">www.inflamigos.com.mx</a></li>
+			</ul>
+		</div>
+	<div class="firma-social">
+		<ul>
+			<li><a href="https://www.facebook.com/inflamigos" title="Inflamigos Facebook"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_facebook_icon.png" alt="inflamigos_facebook_icon" /></a></li>
+			<li><a href="https://twitter.com/inflamigos" title="Inflamigos Twitter"><img src="http://www.inflamigos.com.mx/imagenes/soc_icon/inflamigos_twitter_icon.png" alt="inflamigos_twitter_icon" /></a></li>
+		</ul>
+	</div>
 
 </div>
 
