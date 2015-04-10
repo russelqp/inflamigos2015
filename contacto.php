@@ -3,7 +3,7 @@
  $descPage="¡Contáctanos!, en brincolines inflamigos, estamos al pendiente de tus comentarios o sugerencias acerca de nuestros servicios de renta de inflables";
  $btn_activo="contacto";
  ?>
- <?php include('header.php');?>
+ <?php include('inc/header.php');?>
  
 <section id="section-rounded">
   <article>
@@ -15,7 +15,7 @@
   <br />
  
   
-    <p>Para mayores informes sobre la renta de nuestros juegos inflables, puedes llamar al numero de celular 9841416137, enviandonos un e-mail a: buzon@inflamigos.com.mx &oacute; por medio de nuestro formulario de contacto:</p>
+    <p>Para mayores informes sobre la renta de nuestros juegos inflables, puedes llamar al numero de celular 9841416137 o por medio de nuestro formulario de contacto:</p>
 
    	<div id="contact-area">
     
@@ -61,4 +61,4 @@
  </article>
 
 </section>
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>

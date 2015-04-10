@@ -3,7 +3,7 @@
   $descPage="Brincolines Inflamigos, renta de juegos inflables para fiestas y eventos en Playa del Carmen y toda la Riviera Maya. Entretenimiento Infantil.";
   $btn_activo="index";
   ?>
- <?php include('header.php');?>
+ <?php include('inc/header.php');?>
 <!--<div class="ubicacion"><p>Inicio</p></div>-->
 <section id="welcome">
 
@@ -114,7 +114,7 @@
 
 <section id="boletin_video">
 
-<?php include('aside.php');?>
+<?php include('inc/aside.php');?>
 <!--
     <h3>Bienvenida al Sitio</h3>
     <p><strong>Playa del Carmen, Quintana Roo, Mexico</strong></p>
@@ -132,4 +132,4 @@
 </article>
 <blockquote>Brincolines <strong>Inflamigos</strong>, los más divertidos amigos inflables para tus niños.</blockquote>
 </section>
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>

@@ -3,7 +3,7 @@
  $descPage="Si tienes dudas sobre nuestro servicio de renta de brincolines, aquí encontraras la respuesta a las preguntas frecuentes de nuestros clientes.";
  $btn_activo="faq";
  ?>
- <?php include('header.php');?>
+ <?php include('inc/header.php');?>
 
   <section id="section-rounded"> <article>
 
@@ -73,4 +73,4 @@
   </article>
 
 </section>
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>

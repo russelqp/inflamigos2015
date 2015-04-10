@@ -3,7 +3,7 @@
  $descPage="Esta es nuestra página de intercambio de enlaces, tal vez encuentres algo interesante aquí, contáctanos si tienes algún enlace para intercambiar.";
  $btn_activo ="lol";
  ?>
- <?php include('header.php');?>
+ <?php include('inc/header.php');?>
 
   <section id="section-rounded">
    <article>
@@ -174,4 +174,4 @@
 
 
 </section>
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>

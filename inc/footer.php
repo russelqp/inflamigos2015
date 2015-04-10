@@ -18,7 +18,7 @@
 </div>
 
 <div class="credits">
-<?php echo $abrecoment ;?> www.inflamigos.com.mx v4.0 &copy; 2008 - 2014   | SEO, Design &amp; Developed by <a href="http://www.russelquiam.me" title="Web del autor">Russtin</a>
+<?php echo $abrecoment ;?> www.inflamigos.com.mx v4.0 &copy; 2008 - 2015   | SEO, Design &amp; Developed by <a href="http://www.russelquiam.me" title="Web del autor">Russtin</a>
 <br />
 <?php echo $abrecoment ;?><div class="fb-like" data-href="https://www.facebook.com/inflamigos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 <div class="validators">

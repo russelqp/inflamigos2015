@@ -3,7 +3,7 @@
   $descPage="Si te perdiste o quieres ver cómo está organizado el sitio inflamigos, en esta página podrás ver el mapa de nuestro sitio en detalle."; 
   $btn_activo = "none";
   ?>
- <?php include('header.php');?>
+ <?php include('inc/header.php');?>
 
  <section id="section-rounded">
      <article>
@@ -43,8 +43,8 @@
         </ol>
         <h5><a href="http://www.inflamigos.com.mx/mapa_de_sitio/" title="Mapa de Sitio Inflamigos">VII.- Mapa de sitio</a></h5>
         <br />
-        <p>Última actualización<!--21/04/10 05:12 pm, 21/06/2011 4:21 pm, 23/08/11 4:51pm, 17/05/12 4:22pm 27/01/2013 1:45 am 09/05/13 07:00 pm, 29072013-03:24pm--> 06/05/14 8:19pm </p>
+        <p>Última actualización<!--21/04/10 05:12 pm, 21/06/2011 4:21 pm, 23/08/11 4:51pm, 17/05/12 4:22pm 27/01/2013 1:45 am 09/05/13 07:00 pm, 29072013-03:24pm, 06/05/14 8:19pm--> 04/02/2015 7:20pm </p>
     </article>
 
 </section>
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>

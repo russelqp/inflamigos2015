@@ -3,12 +3,12 @@
 			 $descPage="En inflamigos contamos con 13 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo.";
 			 $btn_activo="brincolines";
 			 ?>
-			 <?php include('header.php');?>
+			 <?php include('inc/header.php');?>
 
 			 <section id="section-rounded">
 			 	<article>
 			 		<h3>Brincolines</h3>
-			 		<?php include('cat_brincolines.php');?>
+			 		<?php include('inc/cat_brincolines.php');?>
 					<h4>También puedes descargar nuestro catálogo en PDF</h4>
 					<br />
 					<p> 
@@ -33,4 +33,4 @@
 
 		</section>
 		<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos -->
-		<?php include('footer.php');?>
+		<?php include('inc/footer.php');?>

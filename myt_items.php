@@ -64,7 +64,7 @@ $url = $servicio;
 ?>
 
 
-<?php include('header.php');?>
+<?php include('inc/header.php');?>
  
 <section id="section-rounded">
 
@@ -406,7 +406,7 @@ $url = $servicio;
 </article>
 -->
 </section>
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>
  <?php //Limpia el posible bucle, es decir, se puede volver a hacer el envío.
  $_SESSION['Listo']=0;
  ?> 

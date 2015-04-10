@@ -3,7 +3,7 @@
 			 $descPage="En inflamigos contamos con 11 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo.";
 			   $btn_activo="mobiliario-y-toldos";
 			 ?>
-			 <?php include('header.php');?>
+			 <?php include('inc/header.php');?>
 
 
 			 <section id="welcome-servicios">
@@ -33,4 +33,4 @@
 
 			
 		<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos -->
-		<?php include('footer.php');?>
+		<?php include('inc/footer.php');?>

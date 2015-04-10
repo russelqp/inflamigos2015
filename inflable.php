@@ -86,7 +86,7 @@ return $url;
 }
 ?>
 
-<?php include('inflable_data.php');?>
+<?php include('inc/inflable_data.php');?>
 
 <?php 
 $titlePage=$titulo." - Inflamigos";
@@ -100,11 +100,11 @@ $url = $inflable;
 
 
 
- <?php include('header.php');?>
+ <?php include('inc/header.php');?>
  
-<?php include('inflable_format.php');?>
+<?php include('inc/inflable_format.php');?>
 
-<?php include('footer.php');?>
+<?php include('inc/footer.php');?>
  <?php //Limpia el posible bucle, es decir, se puede volver a hacer el envío.
  $_SESSION['Listo']=0;
  ?> 

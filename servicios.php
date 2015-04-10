@@ -3,7 +3,7 @@
 			 $descPage="En inflamigos contamos ademas de los brincolines, con otros servicios, como renta de Toldos y Skydancers.";
 			   $btn_activo="servicios";
 			 ?>
-			 <?php include('header.php');?>
+			 <?php include('inc/header.php');?>
 
 
 			 <section id="catalogo">
@@ -82,4 +82,4 @@
 
 			
 		<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos -->
-		<?php include('footer.php');?>
+		<?php include('inc/footer.php');?>

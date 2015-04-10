@@ -10,7 +10,7 @@
 
 			 <section>
 			 	<article>
-			 	<?php include('../cat_brincolines.php'); ?>
+			 	<?php include('../inc/cat_brincolines.php'); ?>
 			 		
 				</article>
 	
