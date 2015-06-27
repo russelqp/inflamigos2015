@@ -5,7 +5,7 @@ flush();
 $url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://127.1.0.0/inflamigos2015/";
 $url_r2 = "http://localhost:8080/inflamigos2015/";
-$Myurl = $url_a;
+$Myurl = $url_r;
 $dir_brincolines = "/";
 
 if($Myurl == $url_a){
