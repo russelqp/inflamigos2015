@@ -6,7 +6,9 @@ $url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://127.1.0.0/inflamigos2015/";
 $url_r2 = "http://localhost:8080/inflamigos2015/";
 $Myurl = $url_r;
-$dir_brincolines = "/";
+$Myroot = "";
+$Myurl2= "http://www.inflamigos.com.mx/";
+$dir_brincolines = $Myurl;
 
 if($Myurl == $url_a){
   $abrecoment ="";

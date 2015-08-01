@@ -89,7 +89,7 @@ return $url;
 <?php include('../inc/inflable_data.php');?>
 
 <?php 
-$titlePage=$titulo." - Inflamigos";
+$titlePage=$titulo." - Inflamigos App";
 $descPage= $miniDesc;
 $btn_activo="brincolines";
 $boton_act = 1;
