@@ -2,66 +2,107 @@
 
 					<script type="text/javascript">
 						function cambiaImagen()
-						{	
+						{
 							function cambio()
 							{
 								var imagen = document.getElementById("seleccionado");
+								var optionIni = document.getElementById("option1");
 								imagen.setAttribute("src", "http://www.inflamigos.com.mx/inflables/thumbs/"+brincolin+"_thumb.png");
+								optionIni.removeChild(this);
+
 							}
 							
 							var brincolin = document.getElementById("select1").selectedIndex;
 							switch (brincolin)
 							{
 								case 0:
-									brincolin="escaladrilo"
+									brincolin="crayoland"
+									titulo = "Crayoland"
 									cambio();
 									break;
 								case 1:
-									brincolin="cprincess"
+									brincolin="princessp"
+									titulo = "Princess Party"
 									cambio();
 									break;
 								case 2:
-									brincolin="caventura"
+									brincolin="escaladoraf"
+									titulo = "Escaladora Funny"
 									cambio();
 									break;
 								case 3:
-									brincolin="minionsbox"
+									brincolin="cfrozen"
+									titulo = "Castillo Frozen"
 									cambio();
 									break;
 								case 4:
-									brincolin="angrybox"
+									brincolin="mickeykids"
+									titulo = "Mickey Kids"
 									cambio();
 									break;
 								case 5:
-									brincolin="escaladora"
+									brincolin="gaventura"
+									titulo = "Galeón Aventura"
 									cambio();
 									break;
 								case 6:
-									brincolin="dorabox"
+									brincolin="escaladrilo"
+									titulo = "Escaladrilo"
 									cambio();
 									break;
 								case 7:
-									brincolin="bobesponja"
+									brincolin="peppapig"
+									titulo = "Peppa Pig"
 									cambio();
 									break;
 								case 8:
-									brincolin="ucubo"
+									brincolin="minionsbox"
+									titulo = "Minions Box"
 									cambio();
 									break;
 								case 9:
-									brincolin="aslide"
+									brincolin="angrybox"
+									titulo = "AngryBox"
 									cambio();
 									break;
 								case 10:
-									brincolin="spacelab"
+									brincolin="escaladora"
+									titulo = "Escaladora Mario"
 									cambio();
 									break;
 								case 11:
-									brincolin="aqualand"
+									brincolin="cchavo"
+									titulo = "El Chavo"
 									cambio();
 									break;
 								case 12:
+									brincolin="dorabox"
+									titulo = "Dora Box"
+									cambio();
+									break;
+								case 13:
+									brincolin="ucubo"
+									titulo = "Ultra Cubo"
+									cambio();
+									break;
+								case 14:
+									brincolin="aslide"
+									titulo = "Arco Slide"
+									cambio();
+									break;
+								case 15:
+									brincolin="spacelab"
+									titulo = "Spacelab"
+									cambio();
+									break;
+								case 16:
+									brincolin="aqualand"
+									titulo = "Aqualand"
+									cambio();
+									break;
+								case 17:
 									brincolin="splashpool"
+									titulo = "SplashPool"
 									cambio();
 									break;
 								default:
@@ -84,15 +125,20 @@
 			<li><label for="brincolin">Brincolin: </label>
 				
 					<select id="select1" name="rbrincolin" size="1" onchange="cambiaImagen()">
-
+						<option value="<?php echo $brincolin; ?>" id="option1"><?php echo $brincolin; ?></option>
+						<option value="crayoland">Crayoland</option>
+						<option value="princessp">Princess Party</option>
+						<option value="escaladoraf">Escaladora Funny</option>
+						<option value="cfrozen">Castillo Frozen</option>
+						<option value="mickeykids">Mickey Kids</option>
+						<option value="gaventura">Galeón Aventura</option>
 						<option value="escaladrilo">Escaladrilo</option>
-						<option value="cprincess">Castillo Princess</option>
-						<option value="caventura">Castillo Aventura</option>
+						<option value="peppapig">Peppa Pig</option>
 						<option value="minionsbox">Minions Box</option>
 						<option value="angrybox">Angry Box</option>
-						<option value="escaladora">Escaladora</option>
+						<option value="escaladora">Escaladora Mario</option>
+						<option value="cchavo">El chavo</option>
 						<option value="dorabox">Dora Box</option>
-						<option value="bobesponja">Bob Esponja</option>
 						<option value="ultracubo">Ultra Cubo</option>
 						<option value="arcoslide">Arco Slide</option>
 						<option value="spacelab">Space Lab</option>

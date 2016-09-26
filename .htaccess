@@ -2,13 +2,14 @@ RewriteEngine on
 RewriteBase /
 Rewriterule ^brincolines/(.*)/$ inflable.php?inflable=$1
 Rewriterule ^servicios/(.*)/$ myt_items.php?servicio=$1
+Rewriterule ^categoria/diversion-acuatica/ categoria/diversion-acuatica.php
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^(.*)/$ $1.php [L,QSA]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://www.inflamigos.com.mx/[R=301,L]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-RewriteRule ^index\.php$ http://www.inflamigos.com.mx/ [R=301,L] 
+RewriteRule ^index\.php$ http://www.inflamigos.com.mx/ [R=301,L]
 
 
 #<IfModule mod_rewrite.c>
@@ -16,6 +17,7 @@ RewriteRule ^index\.php$ http://www.inflamigos.com.mx/ [R=301,L]
 #RewriteBase /
 #RewriteRule ^brincolines/(.*)/$ inflable.php?inflable=$1
 #Rewriterule servicios/(.*)/$ myt_items.php?servicio=$1
+#Rewriterule ^categoria/diversion-acuatica/ categoria/diversion-acuatica.php
 #</IfModule>
 
 

@@ -7,7 +7,7 @@ $url_r = "http://127.1.0.0/inflamigos2015/";
 $url_r2 = "http://localhost:8080/inflamigos2015/";
 $Myurl = $url_r;
 $Myroot = "";
-$Myurl2= "http://www.inflamigos.com.mx/";
+$Myurl2= "http://127.1.0.0/inflamigos2015/";
 $dir_brincolines = $Myurl;
 
 if($Myurl == $url_a){
@@ -33,7 +33,7 @@ if($Myurl == $url_a){
 <title><?php echo $titlePage; ?></title>
 
 <link href="<?php echo $Myurl; ?>css/style.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $Myurl; ?>css/gradientbg.css" rel="stylesheet" type="text/css" />
+<!--<link href="<?php echo $Myurl; ?>css/gradientbg.css" rel="stylesheet" type="text/css" />-->
 <script src="<?php echo $Myurl; ?>js/prefixfree.min.js"></script>
 
 <script type="text/javascript" src="[JS library]"></script>
@@ -103,7 +103,7 @@ map.addMarker({
   js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=478839412179968";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-  
+
 
 </script>
   <script type="text/javascript">
@@ -111,7 +111,7 @@ map.addMarker({
               $('a[data-target="flare"]').peFlareLightbox();
           });
     </script>
-       
+<?php $btn_activo;?>
 <div id="top_cintilla">
     <div id="logo"><a href="<?php echo $Myurl; ?>" title="Home Inflamigos"><img src="<?php echo $Myurl; ?>/imagenes/logo_inflamigos.png" width="120" height="134" alt="logo_inflamigos" title="ir al home"/></a></div>
     <div id="logo-min"><a href="<?php echo $Myurl; ?>" title="Home Inflamigos"><img src="<?php echo $Myurl; ?>/imagenes/logo_inflamigos_min.png" alt="logo_inflamigos" title="ir al home"/></a></div>
@@ -120,12 +120,6 @@ map.addMarker({
         <h2>Renta de brincolines en Playa del Carmen</h2>
         <p>Y toda la Riviera Maya | <strong class="icon-phone">9841416137</strong></p>
     </div>
-</div>
-<?php $btn_activo;?>
-
-<div id="container">
-<!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
-
 <header>
               <nav>
                 <ul>
@@ -140,5 +134,12 @@ map.addMarker({
               </nav>
 
 </header>  <!-- end #header -->
+</div>
+
+
+<div id="container">
+<!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
+
+
 
 

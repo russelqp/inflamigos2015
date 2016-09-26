@@ -9,10 +9,14 @@
 			 	<article>
 			 		<h3>Brincolines</h3>
 			 		<?php include('inc/cat_brincolines.php');?>
-					<h4>También puedes descargar nuestro catálogo en PDF</h4>
+
+			 	
+
+			 		<br />
+					<h4>También puedes descargar nuestro catálogo de brincolines 2016 en PDF</h4>
 					<br />
 					<p> 
-						Versión PDF: <a href="<?php echo $Myurl; ?>downloads/catalogo_inflamigos_2015_md.pdf" title="Catalogo Inflamigos .PDF"><img src="<?php echo $Myurl; ?>/imagenes/pdf.png" width="45" height="47" alt="ico-pdf-download" /></a>
+						Versión PDF: <a href="<?php echo $Myurl; ?>downloads/Catalogo_Brincolines_Inflamigos_04_09_16.pdf" title="Catalogo brincolines Inflamigos 2016.PDF"><img src="<?php echo $Myurl; ?>/imagenes/pdf.png" width="45" height="47" alt="ico-pdf-download" /></a>
 					</p>
 
 			

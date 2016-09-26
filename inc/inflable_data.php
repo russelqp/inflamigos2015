@@ -1,14 +1,156 @@
 <?php
 $inflable=$_GET['inflable'];
+
+if($inflable=="galeon-jolly-roger"){
+	$brincolin = "gjollyroger";
+	$titulo = "Galeón Jolly Roger";
+	$precio = "1300";
+	$miniDesc = "Diviertete jugando a los piratas y Piter Pan.";
+	$ancho = "4.50";
+	$largo = "9";
+	$alto = "3.10";
+	$edades = "1 a 12";
+	$capacidad="12";
+	$detalles ="Diviertete con este fantástico barco inflable, jugando a los piratas de nunca jamáz y Piter Pan.";
+	$id_video = "";
+	$acuatico = 0;
+}
+if($inflable=="carrera-loca"){
+	$brincolin = "carreraloca";
+	$titulo = "Carrera Loca";
+	$precio = "1400";
+	$miniDesc = "Corre, brinca y diviertete con este inflable.";
+	$ancho = "3.40";
+	$largo = "9";
+	$alto = "3.60";
+	$edades = "1 a 12";
+	$capacidad="12";
+	$detalles ="Competencias divertidas con este inflable.";
+	$id_video = "";
+	$acuatico = 1;
+}
+if($inflable=="castillo-avengers"){
+	$brincolin = "cavengers";
+	$titulo = "Castillo Avengers";
+	$precio = "1050";
+	$miniDesc = "Los superheroes que llenarán de acción tu fiesta.";
+	$ancho = "4";
+	$largo = "5";
+	$alto = "3.10";
+	$edades = "1 a 9";
+	$capacidad="10";
+	$detalles ="Los superheroes que llenarán de acción tu fiesta.";
+	$id_video = "";
+	$acuatico = 1;
+}
+
+if($inflable=="crayolin"){
+	$brincolin = "crayolin";
+	$titulo = "Crayolin";
+	$precio = "650";
+	$miniDesc = "Divertido y seguro para los más peques.";
+	$ancho = "3";
+	$largo = "4";
+	$alto = "2.70";
+	$edades = "1 a 7";
+	$capacidad="8";
+	$detalles ="Divertido y seguro para los más peques.";
+	$id_video = "";
+	$acuatico = 0;
+}
+if($inflable=="princess-party"){
+	$brincolin = "princessp";
+	$titulo = "Princess Party";
+	$precio = "750";
+	$miniDesc = "Ahora podrás llevar a todas las princesas a tu fiesta, con este hermoso brincolin con rotulación digital de gran calidad.";
+	$ancho = "3";
+	$largo = "4";
+	$alto = "3.50";
+	$edades = "1 a 9";
+	$capacidad="8";
+	$detalles ="Ahora podrás llevar a todas las princesas a tu fiesta, con este hermoso brincolin con rotulación digital de gran calidad.";
+	$id_video = "";
+	$acuatico = 0;
+}
+if($inflable=="castillo-frozen"){
+	$brincolin = "cfrozen";
+	$titulo = "Castillo Frozen";
+	$precio = "650";
+	$miniDesc = "Un pequeño castillo ideal para espacios pequeños.";
+	$ancho = "3";
+	$largo = "4";
+	$alto = "2.8";
+	$edades = "1 a 9";
+	$capacidad="8";
+	$detalles ="Un pequeño castillo ideal para espacios pequeños. A tu princesa le encantará.";
+	$id_video = "";
+	$acuatico = 0;
+}
+if($inflable=="escaladora-funny"){
+	$brincolin = "escaladoraf";
+	$titulo = "Escaladora Funny";
+	$precio = "650";
+	$miniDesc = "Diviertete en nuestra escaladora funny.";
+	$ancho = "3";
+	$largo = "6";
+	$alto = "2";
+	$edades = "1 a 9";
+	$capacidad="8";
+	$detalles ="Divertida escaladora, con dos cuerdas para escalar una y otra vez, de un lado a otro.";
+	$id_video = "";
+	$acuatico = 0;
+}
+if($inflable=="mickey-kids"){
+	$brincolin = "mickeykids";
+	$titulo = "Mickey Kids";
+	$precio = "1100";
+	$miniDesc = "Lo más nuevo en el mercado con un diseño muy atractivo y original, con rotulos digitales de mickey y sus amigos.";
+	$ancho = "6";
+	$largo = "4.20";
+	$alto = "3.40";
+	$edades = "1 a 9";
+	$capacidad="10";
+	$detalles ="Trajimos para ti este hermoso inflable que cuenta con área de brincos y una bonita resbaladilla lista para la diversión el la alberca. Mickey y sus amigos acompañaran a tu pequeño en una fantástica aventura";
+	$id_video = "";
+	$acuatico = 1;
+}
+if($inflable=="galeon-aventura"){
+	$brincolin = "gaventura";
+	$titulo = "Galeón Aventura";
+	$precio = "1300";
+	$miniDesc = "Diversión asegurada a bordo de este bello galeón.";
+	$ancho = "4.70";
+	$largo = "8";
+	$alto = "3.10";
+	$edades = "2 a 10";
+	$capacidad="12";
+	$detalles ="Lo único que necesita tú pequeño para zarpar a la aventura. Este divertido galeón está listo para llevar a tu pequeño y no tan pequeño a la máxima diversión acuática ya que está preparado con una resbaladilla de 2.30m de alto para usarse junto a la alberca.";
+	$id_video = "";
+	$acuatico = 1;
+}
+if($inflable=="peppa-pig"){
+	$brincolin = "peppapig";
+	$titulo = "Peppa Pig";
+	$precio = "700";
+	$miniDesc = "Más diversión con Peppa en tu fiesta, para las pequeñas traviesas del hogar.";
+	$ancho = "3";
+	$largo = "4";
+	$alto = "3";
+	$edades = "1 a 9";
+	$capacidad="8";
+	$detalles ="Esta divertida cajita inflable llenará de alegría tu evento, ya que se trata de Peppa Pig. El inflable cuenta con atractivos rótulos de los personajes.";
+	$id_video = "";
+	$acuatico = 0;
+}
 if($inflable=="castillo-del-chavo"){
 	$brincolin = "cchavo";
 	$titulo = "Castillo del Chavo";
-	$precio = "750";
+	$precio = "700";
 	$miniDesc = "Ahora estará el chavo en tu fiesta";
 	$ancho = "4";
 	$largo = "5";
 	$alto = "3";
-	$edades = "1 a 5";
+	$edades = "1 a 9";
 	$capacidad="7";
 	$detalles ="Podrás llevar al chavo y a la chilindrina a tu fiesta, y tus pequeños gozarán de un refrescante aroma a frutas de este lindo castillo con resbaladilla.";
 	$id_video = "";
@@ -120,7 +262,7 @@ if($inflable=="resbaladilla-bob-esponja"){
 	$largo = "7";
 	$alto = "3.5";
 	$edades = "4 a 10";
-	$capacidad="8";
+	$capacidad="10";
 	$detalles ="Un brincolin con colores alegres, en la parte frontal se encuentra el rostro de Bob Esponja, en el interior se encuentra un punching bag de Patricio, tiene espacio para brincar, escalar y en la parte posterior una emocionante resbaladilla donde tus niños se divertirán mucho.";
 	$id_video = "";
 	$acuatico = 1;
@@ -139,7 +281,7 @@ if($inflable=="ultra-cubo"){
 	$id_video = "";
 	$acuatico = 1;
 }
-if(	
+if(
 	$inflable=="arco-slide"){
 	$brincolin= "aslide";
 	$titulo = "Arco Slide";
@@ -161,7 +303,7 @@ if($inflable=="space-lab"){
 	$miniDesc = "Es el brincolin que vino del espacio, sus tripulantes, dos alienígenas que los esperan en la entrada del laboratorio espacial";
 	$ancho = "6";
 	$largo = "6";
-	$alto = "2.5";
+	$alto = "4";
 	$edades = "2 a 10";
 	$capacidad="13";
 	$detalles ="Un diseño original donde los niños podrán experimentar mucha diversión en este interactivo inflable. Es el brincolin que vino del espacio, sus tripulantes, dos alienígenas que los esperan en la entrada del laboratorio espacial, túneles y punching bags alienígenas. Lleva un pequeño rótulo de Buzz Lightyear.";
@@ -199,11 +341,11 @@ if($inflable=="aqualand"){
 	$titulo = "Aqualand";
 	$precio = "1300";
 	$miniDesc = "Un inflable muy completo, el Aqualand cuenta con chapoteadero, resbaladilla, túnel  y espacio para brincar.";
-	$ancho = "5";
-	$largo = "4.5";
-	$alto = "2.5";
+	$ancho = "6";
+	$largo = "6.5";
+	$alto = "3";
 	$edades = "2 a 10";
-	$capacidad="10";
+	$capacidad="12";
 	$detalles ="Un inflable muy completo, el Aqualand cuenta con chapoteadero, resbaladilla, túnel  y espacio para brincar. Es un brincolin que se recomienda mucho para los días soleados y de mucho calor pues los niños pueden refrescarse en el y  pasar horas de diversión y des estrés. Una idea excelente es juntarse entre varios vecinos, amigos o familiares  y rentar este inflable todo un fin de semana, y obtener un precio especial. Tiene rótulos de Los padrinos mágicos.";
 	$id_video = "";
 	$acuatico = 1;

@@ -12,24 +12,18 @@
 		<li><a href="<?php echo $Myurl; ?>acercade/">Acerca de</a></li>
 		<li><a href="<?php echo $Myurl; ?>faq/">Faq</a></li>
 		<li><a href="<?php echo $Myurl; ?>contacto/">Contacto</a></li>
-		<li><a href="<?php echo $Myurl; ?>enlaces/">Enlaces</a></li>
 		<li class="nb-right"><a href="<?php echo $Myurl; ?>mapa_de_sitio/">Mapa de sitio</a></li>
 	</ul>
 </div>
 
 <div class="credits">
-<?php echo $abrecoment ;?> www.inflamigos.com.mx v4.0 &copy; 2008 - 2015   | SEO, Design &amp; Developed by <a href="http://www.russelquiam.me" title="Web del autor">Russtin</a>
+<?php echo $abrecoment ;?> www.inflamigos.com.mx v4.0 &copy; 2008 - 2016   | SEO, Design & Developed by <a href="http://www.russelquiam.me" title="Web del autor">Russtin</a>
 <br />
 <?php echo $abrecoment ;?><div class="fb-like" data-href="https://www.facebook.com/inflamigos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 <div class="validators">
   <br /><br />
 
- <a href="<?php echo $Myurl; ?>" title="Brincolines Inflamigos"><img src="<?php echo $Myurl; ?>/imagenes/mini_logo_inflamigos.png" alt="logo inflamigos miniatura"/></a>&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="¡CSS Válido!" />
-</a><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10"
-        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+ <a href="<?php echo $Myurl; ?>" title="Brincolines Inflamigos"><img src="<?php echo $Myurl; ?>/imagenes/mini_logo_inflamigos.png" alt="logo inflamigos miniatura"/></a>
         <br />
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es"><img alt="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
 <?php echo $cierracoment ;?>

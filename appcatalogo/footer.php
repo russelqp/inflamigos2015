@@ -7,7 +7,7 @@
 <footer>
 
 <div class="credits">
- <p><a href="http://www.inflamigos.com.mx">www.inflamigos.com.mx</a> | SEO, Design &amp; Developed by <a href="http://www.russelquiam.me" title="Web del autor">Russtin</a></p>
+ <p><a href="http://www.inflamigos.com.mx" target="self" title="sitio web inflamigos">www.inflamigos.com.mx</a> | SEO, Design &amp; Developed by <a href="http://www.russelquiam.me" target="self" title="Web del autor">Russtin</a></p>
 
 </div>
 

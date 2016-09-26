@@ -11,17 +11,17 @@
 <div id="wowslider-container1">
   <div class="ws_images">
     <ul>
-    <li><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="Skydancers"><img src="data1/images/banner_4.jpg" alt="Inflamigos_banner_4" title="SkyDancers" id="wows1_0"/></a></li>
+    <!--<li><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="Skydancers"><img src="data1/images/banner_4.jpg" alt="Inflamigos_banner_4" title="SkyDancers" id="wows1_0"/></a></li>-->
     <li><img src="data1/images/banner_1.jpg" alt="Inflamigos_banner_1" title="Eventos Hoteleros" id="wows1_0"/></li>
-    <li><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></li>
+    <li><a href="http://www.inflamigos.com.mx/categoria/diversion-acuatica/" title="Eventos Hoteleros" title="Diversión Acuática"><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></a></li>
     <li><img src="data1/images/banner_3.jpg" alt="Inflamigos_banner_3" title="Al aire libre" id="wows1_2"/></li>
     </ul>
   </div>
   <div class="ws_bullets"><div>
-  <a href="#" title="Sky Dancers"><img src="data1/tooltips/banner_4.jpg" alt="_banner_4"/>1</a>
-  <a href="#" title="Eventos Hoteleros"><img src="data1/tooltips/banner_1.jpg" alt="_banner_1"/>2</a>
-  <a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="_banner2"/>3</a>
-  <a href="#" title="Al aire libre"><img src="data1/tooltips/banner_3.jpg" alt="_banner_3"/>4</a>
+  <!--<a href="#" title="Sky Dancers">1</a>-->
+  <a href="#" title="Salón de juegos">1</a>
+  <a href="#" title="Diversión Acuática">2</a>
+  <a href="#" title="Al aire libre">3</a>
 </div>
 </div>
   <div class="ws_shadow"></div>
@@ -65,49 +65,43 @@
   <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="Toldos" class="btn_red">Ver más</a><p><br />
   <p class="compartir">
   <?php echo $abrecoment ;?> <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
-  </p>  
-</figure>
-
-<figure class="miniserv">
-  <a href="<?php echo $Myurl; ?>servicios/rockolas/" title="Rockolas">
-  <img src="<?php echo $Myurl; ?>imagenes/inflamigos_rockolas.jpg" alt="Rockolas" />
-  </a>
-  <a href="<?php echo $Myurl; ?>servicios/rockolas/" title="Rockolas">
-  <h4>Renta de Rockola con Karaoke</h4>
-  </a>
-  <figcaption>Rockola + Karaoke</figcaption>
-  <p><a href="<?php echo $Myurl; ?>servicios/rockolas/" title="Rockolas" class="btn_red">Ver más</a><p><br />
-  <p class="compartir">
-   <?php echo $abrecoment ;?><div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/rockolas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
-  </p>
-</figure>
-
-<figure class="miniserv">
-  <a href="<?php echo $Myurl; ?>servicios/skydancers/" title="SkyDancers">
-  <img src="<?php echo $Myurl; ?>imagenes/inflamigos_skydancers.jpg" alt="SkyDancers" />
-  </a>
-  <a href="<?php echo $Myurl; ?>servicios/skydancers/" title="SkyDancers">
-  <h4>Renta de SkyDancer</h4>
-  </a>
-  <figcaption>SkyDancer para tus campañas publicitarias.</figcaption>
-  <p><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="SkyDancers" class="btn_red">Ver más</a><p><br />
-  <p class="compartir">
-   <?php echo $abrecoment ;?><div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
   </p>
 </figure>
 
 
-<!--<a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">
 <figure class="miniserv">
+  <a href="<?php echo $Myurl; ?>servicios/futbolitos/" title="Renta de Futbolitos">
+  <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_futbolito_clasico.jpg" alt="Futbolito" />
+  </a>
+  <a href="<?php echo $Myurl; ?>servicios/futbolitos/" title="Renta de Futbolitos">
+   <h4>Renta de Futbolitos</h4>
+ </a>
+  <figcaption>Contamos con mesas de futbolito para los más grandes de la casa.</figcaption>
+  <p><a href="<?php echo $Myurl; ?>servicios/futbolitos/" title="Futbolitos" class="btn_red">Ver más</a><p><br />
+  <p class="compartir">
+  <?php echo $abrecoment ;?> <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/futbolitos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
+  </p>
+</figure>
+
+
+<figure class="miniserv">
+<a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_silla_adulto_plegable.jpg" alt="" />
+  </a>
+  <a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">
    <h4>Alquiler de sillas y mesas</h4>
+ </a>
   <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
-   <p><a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas" class="btn_red">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  <?php echo $abrecoment ;?> <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><?php echo $cierracoment ;?>
   </p>
 </figure>
-</a>-->
+
+
+
+
+
 
 </article>
 </section>
@@ -118,7 +112,6 @@
 <!--
     <h3>Bienvenida al Sitio</h3>
     <p><strong>Playa del Carmen, Quintana Roo, Mexico</strong></p>
-    
 
 <p  class="p1"><strong>Inflamigos, </strong>ofrece servicio de renta de juegos inflables a toda la <strong>Riviera Maya, </strong>brindando entretenimiento infantil para tus eventos: empresariales, campañas publicitarias,  graduaciones, primera comunión, bautizo, confirmación, cumpleaños, bodas, quinceaños, ferias, expos, hoteles, posadas, halloween y otros eventos especiales. Conoce más de nosotros en la sección <a href="http://www.inflamigos.com.mx/acercade.php" title="ir a acerca de inflamigos">acerca de</a>.</p>
 <p class="p2"><a href="http://www.inflamigos.com.mx/brincolines.php" title="ver los brincolines inflables">Nuestros brincolines</a> son innovadores, fabricados con  material importado y de alta calidad, con el respaldo de nuestros proveedores.</p>

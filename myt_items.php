@@ -52,6 +52,10 @@ if($servicio=="sillas-y-mesas"){
 	$titulo = "Sillas y Mesas";
 	$miniDesc = "Sillas y mesas para niños y adultos";
 }
+if($servicio=="futbolitos"){
+	$titulo = "Mesas de Futbolito";
+	$miniDesc = "Mesas de futbolito para chicos y grandes, uno contra uno o dos contra dos.";
+}
 
 
 $titlePage=$titulo." - Inflamigos";
@@ -59,22 +63,22 @@ $descPage= $miniDesc;
 $btn_activo="servicios";
 
 
-// La variable del título de la noticia 
+// La variable del título de la noticia
 $url = $servicio;
 ?>
 
 
 <?php include('inc/header.php');?>
- 
+
 <section id="section-rounded">
 
-<?php 
+<?php
 	if ($servicio == "toldos")
 		{
 		$modelo = array("toldo-3x6", "toldo-6x6", "toldo-6x12");
-		
+
 			$i = 0;
-		
+
 		for ($i=0; $i<count($modelo); $i++)
 			{
 
@@ -91,7 +95,7 @@ $url = $servicio;
 						{
 							$h3= "Toldo de 6 x 6";
 							$capacidad="5 mesas redondas";
-							$precio = "1450";
+							$precio = "1800";
 							$detalles ="Para casi cualquier espacio";
 							$id_video = "";
 							$img = "toldo_6x6";
@@ -100,13 +104,247 @@ $url = $servicio;
 						{
 							$h3= "Toldo de 6 x 12";
 							$capacidad="10 mesas redondas";
-							$precio = "2450";
+							$precio = "2800";
 							$detalles ="Para espacios amplios, tus invitados estaran bien resguardados de el sol y de la lluvia.";
 							$id_video = "";
 							$img = "toldo_6x12";
 						}
 
 
+				echo '
+
+
+					<article id="item">
+
+						<h3>'.$h3.'</h3>
+
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-toldos"/>
+							<figcaption>
+
+
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+
+							</figcaption>
+						</figure>
+
+						<div class="datos">
+
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: <span class="precio">$'.$precio.'.00</span>
+						<br />
+						</p>
+
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
+						<br />
+					</article>
+
+
+			';}
+
+	}
+	/* if ($servicio == "rockolas")
+		{
+		$modelo = array("fiesta");
+
+			$i = 0;
+
+		for ($i=0; $i<count($modelo); $i++)
+			{
+
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Fiesta";
+							$precio = "500";
+							$detalles ="Rockola con Karaoke incluido + videos musicales. $500.00 por 6 horas.";
+							$id_video = "";
+							$img = "rockolas_fiesta";
+						}
+
+
+				echo '
+
+					<article id="item">
+
+						<h3>'.$h3.'</h3>
+
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-rockolas"/>
+							<figcaption>
+
+
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+
+							</figcaption>
+						</figure>
+
+						<div class="datos">
+
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: <span class="precio">$'.$precio.'.00</span>
+						<br />
+						</p>
+
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
+						<br />
+					</article>
+
+
+			';}
+
+	}*/
+	/* if ($servicio == "skydancers")
+		{
+		$modelo = array("vino", "welcome", "lila");
+
+			$i = 0;
+
+		for ($i=0; $i<count($modelo); $i++)
+			{
+
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Sky Tube Color Vino";
+							$precio = "200";
+							$detalles ="Skydancer sencillo, color vino, para darle un toque elegante a tus promociones.";
+							$id_video = "";
+							$img = "skydancers_vino";
+						}
+				if($modelo[$i] == $modelo[1])
+						{
+							$h3= "Sky Dancer Welcome";
+							$precio = "250";
+							$detalles ="Divertido Skydancer con brazos y rostro, con las palabras Welcome y Bienvenido, genial para cualquier tipo de evento.";
+							$id_video = "";
+							$img = "skydancers_welcome";
+						}
+				if($modelo[$i] == $modelo[2])
+						{
+							$h3= "Sky Tube Morado";
+							$precio = "200";
+							$detalles ="Skydancer sencillo, color morado, para darle un toque lujoso a tus promociones.";
+							$id_video = "";
+							$img = "skydancers_morado";
+						}
+
+
+				echo '
+
+					<article id="item">
+
+						<h3>'.$h3.'</h3>
+
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-skydancers"/>
+
+
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+
+							</figcaption>
+
+						<div class="datos">
+
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: <span class="precio">$'.$precio.'.00</span>
+						<br />
+						</p>
+
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
+						<br />
+					</article>
+
+
+			';}
+
+	}*/
+	if ($servicio == "sillas-y-mesas")
+		{
+		$modelo = array("silla-adulto-plegable", "silla-infantil-plegable", "mesa-adulto-tablon", "mesa-adulto-redonda", "mesa-infantil");
+
+			$i = 0;
+
+		for ($i=0; $i<count($modelo); $i++)
+			{
+
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Silla adulto plegable";
+							$precio = "8";
+							$detalles ="Silla plegable, de plastico con metal, en color negro.";
+							$id_video = "";
+							$img = "silla_adulto_plegable"; 
+						}
+				if($modelo[$i] == $modelo[1])
+						{
+							$h3= "Silla infantil plegable";
+							$precio = "8";
+							$detalles ="Silla infantil plegable. Contamos con varios colores.";
+							$id_video = "";
+							$img = "silla_infantil_plegable";
+						}
+				if($modelo[$i] == $modelo[2])
+						{
+							$h3= "Mesa adulto Tablón";
+							$capacidad="10 sillas";
+							$precio = "80";
+							$detalles ="Mesa para adulto, modelo tablón, de acero y fibra de vidrio.";
+							$id_video = "";
+							$img ="mesa_adulto_tablon";
+						}
+
+				if($modelo[$i] == $modelo[3])
+						{
+							$h3= "Mesa adulto redonda";
+							$capacidad="10 sillas";
+							$precio = "80";
+							$detalles ="Mesa para adulto, modelo redonda, de acero y fibra de vidrio.";
+							$id_video = "";
+							$img ="mesa_adulto_redonda";
+						}
+
+				if($modelo[$i] == $modelo[4])
+						{
+							$h3= "Mesa infantil Tablón";
+							$capacidad="10 sillas infantiles";
+							$precio = "80";
+							$detalles ="Mesa para niños, modelo tablón, de acero y fibra de vidrio.";
+							$id_video = "";
+							$img = "mesa_infantil";
+						}
+				
 				echo '
 			
 			
@@ -141,7 +379,8 @@ $url = $servicio;
 						
 						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 						</div>
-
+					
+						
 						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
 						<br />
 					</article>
@@ -150,200 +389,24 @@ $url = $servicio;
 			';}
 
 	}
-	if ($servicio == "rockolas")
+	if ($servicio == "futbolitos")
 		{
-		$modelo = array("fiesta");
-		
+		$modelo = array("futbolito-clasico");
+
 			$i = 0;
-		
+
 		for ($i=0; $i<count($modelo); $i++)
 			{
 
 				if($modelo[$i] == $modelo[0])
 						{
-							$h3 = "Fiesta";
-							$precio = "500";
-							$detalles ="Rockola con Karaoke incluido + videos musicales. $500.00 por 6 horas.";
+							$h3 = "Futbolito clásico";
+							$precio = "600";
+							$detalles ="Futbolito clásico para adultos o niños mayores de 10 años.";
 							$id_video = "";
-							$img = "rockolas_fiesta";
+							$img = "futbolito_clasico"; 
 						}
 				
-
-				echo '
-			
-			
-					<article id="item">
-
-						<h3>'.$h3.'</h3>
-
-						<br />
-						<!--Inicia lista-imagenes-->
-						<figure>
-							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-rockolas"/>
-							<figcaption>
-								
-
-									<p>
-									Características: <br />'.$detalles.'
-									</p>
-								
-							</figcaption>
-						</figure>
-							 
-						<div class="datos">
-
-						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-						<br />
-						<br />
-						Precio: <span class="precio">$'.$precio.'.00</span>
-						<br />
-						</p>
-						
-						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
-						</div>
-
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/rockolas/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
-						<br />
-					</article>
-
-
-			';}
-
-	}
-	if ($servicio == "skydancers")
-		{
-		$modelo = array("vino", "welcome", "lila");
-		
-			$i = 0;
-		
-		for ($i=0; $i<count($modelo); $i++)
-			{
-
-				if($modelo[$i] == $modelo[0])
-						{
-							$h3 = "Sky Tube Color Vino";
-							$precio = "200";
-							$detalles ="Skydancer sencillo, color vino, para darle un toque elegante a tus promociones.";
-							$id_video = "";
-							$img = "skydancers_vino";
-						}
-				if($modelo[$i] == $modelo[1])
-						{
-							$h3= "Sky Dancer Welcome";
-							$precio = "250";
-							$detalles ="Divertido Skydancer con brazos y rostro, con las palabras Welcome y Bienvenido, genial para cualquier tipo de evento.";
-							$id_video = "";
-							$img = "skydancers_welcome";
-						}
-				if($modelo[$i] == $modelo[2])
-						{
-							$h3= "Sky Tube Morado";
-							$precio = "200";
-							$detalles ="Skydancer sencillo, color morado, para darle un toque lujoso a tus promociones.";
-							$id_video = "";
-							$img = "skydancers_morado";
-						}
-
-
-				echo '
-			
-			
-					<article id="item">
-
-						<h3>'.$h3.'</h3>
-
-						<br />
-						<!--Inicia lista-imagenes-->
-						<figure>
-							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-skydancers"/>
-							<figcaption>
-								
-
-									<p>
-									Características: <br />'.$detalles.'
-									</p>
-								
-							</figcaption>
-						</figure>
-							 
-						<div class="datos">
-
-						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-						<br />
-						<br />
-						Precio: <span class="precio">$'.$precio.'.00</span>
-						<br />
-						</p>
-						
-						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
-						</div>
-
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
-						<br />
-					</article>
-
-
-			';}
-
-	}
-	if ($servicio == "sillas-y-mesas")
-		{
-		$modelo = array("silla-adulto-plegable", "silla-infantil-plegable", "mesa-adulto-tablon", "mesa-adulto-redonda", "mesa-infantil");
-		
-			$i = 0;
-		
-		for ($i=0; $i<count($modelo); $i++)
-			{
-
-				if($modelo[$i] == $modelo[0])
-						{
-							$h3 = "Silla adulto plegable";
-							$precio = "7";
-							$detalles ="Silla plegable, de plastico con metal, en color negro.";
-							$id_video = "";
-							$img = "silla_adulto_plegable"; 
-						}
-				if($modelo[$i] == $modelo[1])
-						{
-							$h3= "Silla infantil plegable";
-							$precio = "7";
-							$detalles ="Silla infantil plegable. Contamos con varios colores.";
-							$id_video = "";
-							$img = "silla_infantil_plegable";
-						}
-				if($modelo[$i] == $modelo[2])
-						{
-							$h3= "Mesa adulto Tablón";
-							$capacidad="10 sillas";
-							$precio = "70";
-							$detalles ="Mesa para adulto, modelo tablón, de acero y fibra de vidrio.";
-							$id_video = "";
-							$img ="mesa_adulto_tablon";
-						}
-			
-				if($modelo[$i] == $modelo[3])
-						{
-							$h3= "Mesa adulto redonda";
-							$capacidad="10 sillas";
-							$precio = "70";
-							$detalles ="Mesa para adulto, modelo redonda, de acero y fibra de vidrio.";
-							$id_video = "";
-							$img ="mesa_adulto_redonda";
-						}
-
-				if($modelo[$i] == $modelo[4])
-						{
-							$h3= "Mesa infantil Tablón";
-							$capacidad="10 sillas infantiles";
-							$precio = "70";
-							$detalles ="Mesa para niños, modelo tablón, de acero y fibra de vidrio.";
-							$id_video = "";
-							$img = "mesa_infantil";
-						}
 				
 				echo '
 			
@@ -355,7 +418,7 @@ $url = $servicio;
 						<br />
 						<!--Inicia lista-imagenes-->
 						<figure>
-							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-toldos"/>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-futbolitos"/>
 							<figcaption>
 								
 
